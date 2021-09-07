@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+}
+
+#section1 {
+    background-color: red;
+}
+
+#section2 {
+    background-color: green;
+}
+
+img {
+    border-radius: 100%;
+}
+
+p {
+    font-size: 12px;
+    font-family: inherit;
+}
+
+.menuitems {
+    list-style: none;
+    position: fixed;
+    right: 30px;
+}
+
+.listitems {
+    float: right;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: inherit;
+    color: darkblue;
+
+}
+
+.links {
+    float: left;
+    padding-right: 9px;
+    padding-left: 9px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.links:hover {
+    background-color: green;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior:none;
+}
