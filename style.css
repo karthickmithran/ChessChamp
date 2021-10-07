@@ -23,9 +23,7 @@ p {
 }
 
 .menuitems {
-    list-style: none;
     position: fixed;
-    right: 30px;
     background: white;
     width: 100%;
     margin-top: 0px;
@@ -34,13 +32,16 @@ p {
 }
 
 .listitems {
-    float: right;
-    padding-right: 10px;
-    padding-left: 10px;
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
     font-size: 20px;
-    font-family: inherit;
-    color: darkblue;
+}
 
+.listitems:hover {
+    font-size: 25px;
+    text-decoration: underline;
 }
 
 
@@ -67,7 +68,7 @@ a {
     background-color: red;
 }
 
-.links {
++ .links {
     display: inline;
     padding-left: 33px;
     padding-right: 25px;
